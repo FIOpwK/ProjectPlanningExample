@@ -72,7 +72,8 @@ SEARCH_ISSUE [read]
     conn = psycopg.connect("dbname=IssueTrackr user=postgres  port=5433 password=******")
     ```
 
-- Javascript (***)
+- Node (***)
+- JavaScript(***)
 - Java (**)
 - C# (**)
 
