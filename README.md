@@ -1,4 +1,4 @@
-# We are creating an issue logger
+# We are creating an issue logger (lex isitus) LexLogger
 https://docs.oracle.com/cd/E14373_01/appdev.32/e13363/issue_track_obj.htm#BABBHFAF
 
 # User Stories
