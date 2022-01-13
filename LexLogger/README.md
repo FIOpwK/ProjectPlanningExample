@@ -1,5 +1,5 @@
 # We are creating an issue logger (lex isitus) LexLogger
-https://docs.oracle.com/cd/E14373_01/appdev.32/e13363/issue_track_obj.htm#BABBHFAF
+["https://docs.oracle.com/cd/E14373_01/appdev.32/e13363/issue_track_obj.htm#BABBHFAF"]
 
 # User Stories
 ## Manager
@@ -89,7 +89,7 @@ SEARCH_ISSUE [read]
 - C# (**)
 
 
-# Database Setup
+# Data Management
 ["https://dbdesigner.page.link/2uhJcuMqYQddF8x77"]
 
 
@@ -97,3 +97,9 @@ SEARCH_ISSUE [read]
  -Project : tracks all current projects
  -People : information about who can be assigned to handle issues
  -Issue : tracks all information about an issue, including related project, person assigned
+
+ # Security Requirements
+ ["https://www.postgresql.org/docs/14/auth-password.html"]
+ - to use user name mapping, specify the map=map-name in the options field in pg_hba.conf.
+
+ 
