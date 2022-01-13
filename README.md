@@ -64,22 +64,33 @@ SEARCH_ISSUE [read]
  
 # Choosen Languages (options in order of preference)
 - Python (
-    [https://www.psycopg.org/docs/install.html#running-the-test-suite],
-    ['https://www.psycopg.org/psycopg3/docs/'],
+    ["https://www.psycopg.org/docs/install.html#running-the-test-suite"],
+    ["https://www.psycopg.org/psycopg3/docs/"],
 )
 
     ```python
     conn = psycopg.connect("dbname=IssueTrackr user=postgres  port=5433 password=******")
     ```
 
-- Node (***)
+- Node (["https://mongodb.github.io/node-mongodb-native/4.3/"],
+        ["https://www.npmjs.com/package/mongodb"],
+)
+
+    ```node (remote)
+    const url = mongodb+srv://<username>:<password>@box.in.mongodb.net/dbs?authSource=admin
+    ```
+    
+
+    ```node (local)
+    const url = mongodb://127.0.0.1:27017/?directConnection=true
+    ```
 - JavaScript(***)
 - Java (**)
 - C# (**)
 
 
 # Database Setup
-here['https://app.dbdesigner.net/designer/schema/new']
+here["https://app.dbdesigner.net/designer/schema/new"]
  #for this project we will need to create threee db tables
  -Project : tracks all current projects
  -People : information about who can be assigned to handle issues
