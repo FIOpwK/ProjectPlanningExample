@@ -22,11 +22,11 @@
 
 
 # Permissions
-CREATE_ISSUE [create,read,update,close]
-EDIT_ISSUE [read,update,close]
-ADMIN_ISSUE [create,read,update,close]
-VIEW_ISSUE [read]
-SEARCH_ISSUE [read]
+- CREATE_ISSUE [create,read,update,close]
+- EDIT_ISSUE [read,update,close]
+- ADMIN_ISSUE [create,read,update,close]
+- VIEW_ISSUE [read]
+- SEARCH_ISSUE [read]
 
 
 
@@ -91,21 +91,26 @@ SEARCH_ISSUE [read]
 
 # Data Management
 ["https://dbdesigner.page.link/2uhJcuMqYQddF8x77"]
+### for this project we will need to create threee db tables
+ - Project : tracks all current projects
+ - People : information about who can be assigned to handle issues
+ - Issue : tracks all information about an issue, including related project, person assigned
 
 ## Data Management Functions
 ```python
     $ createNewIssue()
     $ resolveIssue()
+```    
+```python
+    $ createNewIssue()
 ```
 ```python
     $ assignProjectIssue()
     $ assignIssue()
 ```
-
 ```python
     $ editIssue()
 ```
-
 ```python
     $ viewIssueById()
     $ viewIssueByProjectId()
@@ -122,17 +127,11 @@ SEARCH_ISSUE [read]
     $ findOne()
     $ findMany()
 ```
-
 ```python
     $ createNewUser()
     $ editUser()
 ```
 
-
- #for this project we will need to create threee db tables
- -Project : tracks all current projects
- -People : information about who can be assigned to handle issues
- -Issue : tracks all information about an issue, including related project, person assigned
 
  # Security Requirements
  ["https://www.postgresql.org/docs/14/auth-password.html"]
