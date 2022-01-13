@@ -100,6 +100,5 @@ SEARCH_ISSUE [read]
 
  # Security Requirements
  ["https://www.postgresql.org/docs/14/auth-password.html"]
- - to use user name mapping, specify the map=map-name in the options field in pg_hba.conf.
-
- 
+ - to use user name mapping, specify the map=map-name in the options field in pg_hba.conf
+ - to check the currently stored password hashes, see system catalog pg_authid
