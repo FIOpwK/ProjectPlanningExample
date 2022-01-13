@@ -90,7 +90,8 @@ SEARCH_ISSUE [read]
 
 
 # Database Setup
-here["https://app.dbdesigner.net/designer/schema/new"]
+["https://app.dbdesigner.net/designer/schema/new"]
+
  #for this project we will need to create threee db tables
  -Project : tracks all current projects
  -People : information about who can be assigned to handle issues
