@@ -92,6 +92,7 @@ SEARCH_ISSUE [read]
 # Database Setup
 ["https://dbdesigner.page.link/2uhJcuMqYQddF8x77"]
 
+
  #for this project we will need to create threee db tables
  -Project : tracks all current projects
  -People : information about who can be assigned to handle issues
