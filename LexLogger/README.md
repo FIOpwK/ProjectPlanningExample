@@ -3,22 +3,22 @@
 
 # User Stories
 ## Manager
--as a manager, I want to add a project_maintainer or contributor to an issue
--as a manager, I want to remove an assignee from an issue
+    - as a manager, I want to add a project_maintainer or contributor to an issue
+    - as a manager, I want to remove an assignee from an issue
 
 ## Viewer
--as a viewer, I want to search for an issue by Id
--as a viewer, I want to search for an issue by Desc
--as a viewer, I want to get notifications on issues I checkbox or like
+    - as a viewer, I want to search for an issue by Id
+    - as a viewer, I want to search for an issue by Desc
+    - as a viewer, I want to get notifications on issues I checkbox or like
 
 ## User
--as a user, I want to create an issue from my account
--as a user, I want to comment on an issue from my account
+    - as a user, I want to create an issue from my account
+    - as a user, I want to comment on an issue from my account
 
 ## Sys
--as the sys, I must track issues
--as the sys, I must prioritize tasks
--as the sys, I must manage (whatever assigned)
+    - as the sys, I must track issues
+    - as the sys, I must prioritize tasks
+    - as the sys, I must manage (whatever assigned)
 
 
 # Permissions
