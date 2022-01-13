@@ -90,7 +90,7 @@ SEARCH_ISSUE [read]
 
 
 # Database Setup
-["https://app.dbdesigner.net/designer/schema/325601"]
+["https://dbdesigner.page.link/2uhJcuMqYQddF8x77"]
 
  #for this project we will need to create threee db tables
  -Project : tracks all current projects
