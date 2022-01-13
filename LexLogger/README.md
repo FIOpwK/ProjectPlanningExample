@@ -92,6 +92,42 @@ SEARCH_ISSUE [read]
 # Data Management
 ["https://dbdesigner.page.link/2uhJcuMqYQddF8x77"]
 
+## Data Management Functions
+```python
+    $ createNewIssue()
+    $ resolveIssue()
+```
+```python
+    $ assignProjectIssue()
+    $ assignIssue()
+```
+
+```python
+    $ editIssue()
+```
+
+```python
+    $ viewIssueById()
+    $ viewIssueByProjectId()
+    $ viewIssueByUserId()
+```
+```python
+    $ editProject()
+    $ createNewProject()
+
+```
+```python
+    $ searchIssueById()
+    $ searchIssues()
+    $ findOne()
+    $ findMany()
+```
+
+```python
+    $ createNewUser()
+    $ editUser()
+```
+
 
  #for this project we will need to create threee db tables
  -Project : tracks all current projects
