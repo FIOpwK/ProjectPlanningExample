@@ -15,6 +15,11 @@ https://docs.oracle.com/cd/E14373_01/appdev.32/e13363/issue_track_obj.htm#BABBHF
 -as a user, I want to create an issue from my account
 -as a user, I want to comment on an issue from my account
 
+## Sys
+-as the sys, I must track issues
+-as the sys, I must prioritize tasks
+-as the sys, I must manage (whatever assigned)
+
 
 # Permissions
 CREATE_ISSUE [create,read,update,close]
@@ -64,7 +69,7 @@ SEARCH_ISSUE [read]
 )
 
     ```python
-    conn = psycopg2.connect("dbname=IssueTrackr user=postgres  port=5433 password=******")
+    conn = psycopg.connect("dbname=IssueTrackr user=postgres  port=5433 password=******")
     ```
 
 - Javascript (***)
